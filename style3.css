@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  /* scroll-behavior: smooth; */
+  font-family: "Inter", sans-serif;
+}
+
+#logo {
+  height: 35px;
+  width: 50px;
+  margin-top: 5px;
+}
+
+.header {
+  display: inline-block;
+  height: 100%;
+  position: fixed;
+  width: 6.5%;
+  text-align: center;
+  margin-top: 19px;
+  background: transparent;
+  z-index: 999;
+}
+
+.icons {
+  margin-top: 160px;
+}
+
+.nav-icons:hover {
+  color: white;
+  text-shadow: 0px 0 33px #fff, 0 0 3px #fff;
+  animation: glow 1s infinite alternate;
+}
+
+.nav-icons {
+  color: grey;
+  display: block;
+  margin-top: 33px;
+}
+
+#avatar {
+  height: 20px;
+  width: 20px;
+}
+
+.slideNavbar {
+  margin-top: 20px;
+  height: 100%;
+  width: 0;
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.8) 10%,
+    transparent 85%
+  );
+  z-index: 20;
+  position: fixed;
+  overflow: hidden;
+  transition: width 0.5s ease;
+  padding: 20px 0;
+}
+
+.header:hover + .slideNavbar {
+  width: 90%;
+}
+
+.NavbarLink {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  top: 177px;
+  left: 82px;
+  margin-bottom: 30px;
+}
+
+.NavbarNames {
+  color: grey;
+  font-size: 18px;
+}
+
+.slideNavbar .NavbarNames:hover {
+  color: white;
+  text-shadow: 0px 0 33px #fff;
+  animation: glow 1s infinite alternate;
+}
+
+/* Search bar */
+.searchDiv {
+  position: relative;
+  top: 30px;
+  left: 110px;
+  height: 65px;
+  width: 88%;
+  background-color: #252833;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 20px;
+  border: none;
+  border-radius: 8px;
+}
+
+.searchDiv i {
+  font-size: 27px;
+  color: white;
+  /* padding: 20px; */
+  /* font-weight:normal; */
+}
+
+#search {
+  border: none;
+  outline: none;
+}
+
+.searchDiv #search {
+  margin: 10px;
+  font-size: 20px;
+  width: 100%;
+  padding: 12px 24px 12px 20px;
+  border: none;
+  background-color: #252833;
+  font-weight: 500;
+  color: white;
+}
+
+#para {
+  position: relative;
+  top: 80px;
+  left: 110px;
+}
+
+p {
+  color: #e1e6f0;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.moviesList {
+  position: relative;
+  width: 100%;
+  top: 65px;
+  left: 110px;
+}
+.moviesList img {
+  height: 290px;
+  width: 185px;
+  border: none;
+  border-radius: 30px;
+  object-fit: cover;
+  margin-right: 10px;
+  /* clip-path: inset(10px round 12px); */
+}
+
+/* Footer section */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 50px;
+  /* background-color: #121212; */
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 150px 60px;
+}
+
+.footer-section h4 {
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.footer-section a {
+  display: block;
+  margin: 5px 0;
+  color: #9ca3af;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-section p {
+  font-size: 16px;
+}
+
+.footer-section a:hover {
+  color: #fff;
+}
+
+.footer .copyright {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #666;
+}
+
+.footer .footer-links a {
+  margin-right: 10px;
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.footer .footer-links a:hover {
+  color: #fff;
+}
+
+.social-icons {
+  display: flex;
+  font-size: 20px;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+.social-icons a {
+  font-size: 20px;
+}
+
+.store-buttons img {
+  height: 40px;
+  margin-right: 10px;
+  margin-top: 10px;
+}

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="./images/jiohotstar-app-logo-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../Bootstrap/bootstrap-5.3.6-dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style3.css">
+
+    <title>JioHotstar - Watch TV Shows, Movies, Specials, Live Cricket & Football</title>
+    <style>
+        body {
+            background-color: black !important;
+            font-family: 'Inter', sans-serif !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <aside id="navbar">
+            <!-- <h1>JioHotstar</h1> -->
+            <img id="logo" src="https://img.hotstar.com/image/upload/v1737554969/web-assets/prod/images/rebrand/logo.png"
+                alt="JioHotstar logo">
+    
+            <div class="icons">
+                <a href="index.html">
+                    <span class="nav-icons">
+                        <i class="fa-solid fa-house"></i>
+                    </span>
+                </a>
+    
+                <a href="search.html">
+                    <span class="nav-icons">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </span>
+                </a>
+    
+                <a href="tv.html">
+                    <span class="nav-icons">
+                        <i class="fa-solid fa-tv"></i>
+                    </span>
+                </a>
+    
+                <a href="movies.html">
+                    <span class="nav-icons">
+                        <i class="fa-solid fa-film"></i>
+                    </span>
+                </a>
+    
+                <a href="sports.html">
+                    <span class="nav-icons">
+                        <i class="fa-solid fa-person-running"></i>
+                    </span>
+                </a>
+    
+                <!-- <a href="#">
+                            <span class="nav-icons">
+                                <i class="bi bi-camera-video"></i>
+                            </span>
+                        </a>
+        
+                        <a href="#">
+                            <span class="nav-icons">
+                                <i class="fa-solid fa-shapes"></i>
+                            </span>
+                        </a> -->
+    
+                <a href="login.html">
+                    <span class="nav-icons">
+                        <i class="bi bi-person-circle"></i>
+                    </span>
+                </a>
+            </div>
+        </aside>
+    </div>
+    
+    
+    <div class="slideNavbar">
+        <a class="NavbarLink" href="#">
+            <span class="NavbarNames"><b>Home</b></span>
+        </a>
+        <a class="NavbarLink" href="#">
+            <span class="NavbarNames"><b>Search</b></span>
+        </a>
+        <a class="NavbarLink" href="#">
+            <span class="NavbarNames"><b>TV</b></span>
+        </a>
+        <a class="NavbarLink" href="#">
+            <span class="NavbarNames"><b>Movies</b></span>
+        </a>
+        <a class="NavbarLink" href="#">
+            <span class="NavbarNames"><b>Sports</b></span>
+        </a>
+        <a class="NavbarLink" href="#">
+            <span class="NavbarNames"><b>My Space</b></span>
+        </a>
+    </div>
+
+    <div class="searchDiv">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="search" name="search" id="search" placeholder="Movies, shows and more" onclick="test();">
+    </div>
+
+    <div id="para">
+        <p>Trending in India</p>
+    </div>
+    
+    <div class="moviesList">
+        <a href="#">
+            <img alt="Madulika's kitchen"
+                src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/8850/1748093138850-v"
+                class="slider-img">
+        </a>
+        <a href="#">
+            <img alt="Image2"
+                src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/8429/1745986818429-v"
+                class="slider-img">
+        </a>
+        <a href="#">
+            <img alt="Image3"
+                src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/8274/1747736338274-v"
+                class="slider-img">
+        </a>
+        <a href="#">
+            <img alt="image4"
+                src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4189/1746455824189-v"
+                class="slider-img">
+        </a>
+        <a href="#">
+            <img alt="Image5"
+                src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1676/1581676-v-47701fcd75b0"
+                class="slider-img">
+        </a>
+        <a href="#">
+            <img alt="Image6"
+                src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1431/1745844271431-v"
+                class="slider-img">
+        </a>
+        <a href="#">
+            <img alt="Image7"
+                src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/5959/1710936435959-v"
+                class="slider-img">
+        </a>
+        <a href="#">
+            <img alt="Image8"
+                src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4269/1744026164269-v"
+                class="slider-img">
+        </a>
+        <a href="#">
+            <img alt="Image9"
+                src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1135/1737622841135-v"
+                class="slider-img">
+        </a>
+        <a href="#">
+            <img alt="Image10"
+                src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_3840/sources/r1/cms/prod/2160/1748198332160-v"
+                class="slider-img">
+        </a>
+        <a href="#">
+            <img alt="Image11"
+                src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1848/1734945421848-v"
+                class="slider-img">
+        </a>
+        <a href="#">
+            <img alt="Image12"
+                src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/5617/1734949875617-v"
+                class="slider-img">
+        </a>
+        <a href="#">
+            <img alt="Image13"
+                src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/86/1734001770086-v"
+                class="slider-img">
+        </a>
+        <a href="#">
+            <img alt="Image14"
+                src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/5016/1734587115016-v"
+                class="slider-img">
+        </a>
+        <a href="#">
+            <img alt="Image15"
+                src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1349/1734509571349-v"
+                class="slider-img">
+        </a>
+        <a href="#">
+            <img alt="Image16"
+                src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4606/1724530174606-v"
+                class="slider-img">
+        </a>
+        <a href="#">
+            <img alt="Image17"
+                src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_256/sources/r1/cms/prod/5946/1739444625946-v"
+                class="slider-img">
+        </a>
+
+    </div>
+
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-section">
+            <h4>Company</h4>
+            <a href="#">About Us</a>
+            <a href="#">Careers</a>
+            <p class="copyright">© 2025 STAR. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="#">Terms Of Use</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">FAQ</a>
+            </div>
+        </div>
+
+        <div class="footer-section">
+            <h4>View Website in</h4>
+            <p><i class="fa-solid fa-check" style="margin-right: 8px;"></i> English</p>
+        </div>
+
+        <div class="footer-section">
+            <h4>Need Help?</h4>
+            <a href="#">Visit Help Center</a>
+            <a href="#">Share Feedback</a>
+        </div>
+
+        <div class="footer-section connect">
+            <h4>Connect with Us</h4>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/JioHotstar">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="https://x.com/jiohotstar">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+
+            </div>
+            <div class="store-buttons">
+                <a href="https://play.google.com/store/apps/details?id=in.startv.hotstar">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                        alt="Google Play" />
+                </a>
+                <a href="https://apps.apple.com/in/app/jiohotstar/id934459219">
+                    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                        alt="App Store" />
+                </a>
+            </div>
+    </footer>
+
+    <script>
+        const inputSearch = document.getElementById("search");
+        inputSearch.style.border = "none";
+    </script>
+    <script src="../Bootstrap/bootstrap-5.3.6-dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+</body>
+</html>
