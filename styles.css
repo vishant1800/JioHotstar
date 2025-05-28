@@ -8,7 +8,6 @@ body {
   height: 100%;
   width: 100%;
   background-color: black;
-  /* scroll-behavior: smooth; */
   font-family: "Inter", sans-serif;
 }
 
@@ -54,9 +53,6 @@ body {
   height: 10%;
   width: 10%;
   background-color: aqua;
-  /* background: linear-gradient(to right, black, white); */
-  /* background: transparent; */
-  /* z-index: ; */
 }
 
 #demo {
@@ -78,7 +74,6 @@ body {
     rgba(0, 0, 0, 1) 20%,
     transparent 70%
   );
-  /* background-image: linear-gradient(to top, rgba(0, 0, 0, 1) 20%, transparent 70%); */
   z-index: 1;
 }
 
@@ -268,7 +263,6 @@ body {
   background: #000;
   top: 50px;
   left: 0px;
-  /* z-index: 2; */
 }
 
 .slider {
@@ -286,7 +280,6 @@ body {
 }
 
 .slider img:hover {
-  /* display: inline-block; */
   transform: scale(1.5);
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
   z-index: 5;
@@ -298,9 +291,7 @@ body {
   position: absolute;
   top: 810px;
   left: 130px;
-  /* display: none; */
   z-index: 10000;
-  /* background: none; */
   background-color: black;
   border: 1px solid grey;
 }
@@ -311,7 +302,6 @@ body {
 
 .card-body {
   height: 200px;
-  /* position: absolute; */
 }
 .card-text {
   margin-top: 10px;
@@ -346,8 +336,6 @@ body {
   width: 91%;
   left: 130px;
   position: relative;
-  /* background-color: yellow; */
-  /* margin-bottom: 10px; */
 }
 
 .sliderHeading {
@@ -367,15 +355,18 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 50px;
-  /* background-color: #121212; */
   color: #fff;
   font-family: "Inter", sans-serif;
+  position: relative;
 }
 
 .footer-section {
   flex: 1;
   min-width: 200px;
   margin: 10px 50px;
+  position: relative;
+  left: 30px;
+  top: 30px;
 }
 
 .footer-section h4 {
